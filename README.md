@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Workshop 1: Execute Behave
 
-To execute
+To execute (use tag to only execute the first test)
 
 ```bash 
 behave --tags=@basic
@@ -27,15 +27,13 @@ behave --tags=@basic
 
 ## Workshop 2: Scenario Outline
 
-1. To link
-```bash
-ln -s features/calculator_scenario_outline._feature features/calculator_scenario_outline.feature
-`````
-2. Run
+1. Run without tag to run all tests
+
 ```bash 
 behave
+
 ```
-3. Task: Fix failing tests
+2. Task: Fix failing tests
 
 
 ## Reference:
